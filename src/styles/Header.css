@@ -1,0 +1,39 @@
+.header{
+    background-color: #1f1e1e;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 3rem;
+   > div {
+     h2 {
+       text-transform: uppercase;
+       color: white;
+       font-weight: bold;
+     }
+   }
+   > article {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: space-between;
+     width: 150px;
+     /* background-color: brown; */
+     > a {
+         font-size: 20px;
+         text-decoration: none;
+         color: white;
+         font-weight: 400;
+         
+     }
+     a:hover{
+       color:blueviolet;
+    }
+   }
+
+}
+@media only screen and (max-width: 350px) {
+  h2{
+     font-size: 20px;
+  }
+ 
+}
