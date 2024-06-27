@@ -1,7 +1,7 @@
 
 body{
     color:white;
-    overflow: hidden;
+    overflow:hidden;
     margin: 0;
     padding: 0;
   }
@@ -88,9 +88,8 @@ body{
   .todo-list{
     display: flex;
     flex-direction: column;
-    max-height: 50vh;
+    max-height:40vh;
     overflow-y: auto;
-  
   }
   
   .btn-area{
@@ -176,5 +175,8 @@ body{
          }
          .todo-wrapper{
             padding: 4%;
+            /* max-height:70vh;
+            overflow-y: auto; */
          }
+        
   } 
