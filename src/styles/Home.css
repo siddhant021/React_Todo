@@ -175,7 +175,7 @@ body{
          }
          .todo-wrapper{
             padding: 4%;
-            max-height: 75vh;
+            max-height: 70vh;
             overflow-y: auto;
          }
          .todo-list{
